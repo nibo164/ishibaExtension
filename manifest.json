@@ -1,0 +1,13 @@
+{
+  "name": "IshibaExtension",
+  "description": "特定の語尾を石破さん風にﾈｯﾄﾘさせる",
+  "version": "0.1",
+  "manifest_version": 3,
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
